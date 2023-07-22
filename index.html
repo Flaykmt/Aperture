@@ -9,10 +9,10 @@
     <title>Aperture</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header header-anim">
       <nav class="header-nav">
         <div class="container">
-          <img src="img/logo.svg" alt="" />
+          <a href="https://github.com/Flaykmt/Aperture" target="_blank"><img src="img/logo.svg" alt="" /></a>
           <ul class="header-nav__list" id="burger-list">
             <li><a href="##">Business areas</a></li>
             <li><a href="##">Featured images</a></li>
@@ -56,10 +56,10 @@
     
     <main class="main">
       <section class="what container">
-        <h2 class="title">What we do.</h2>
-        <p class="descr">The areas that we're specialized in.</p>
+        <h2 class="title card-anim">What we do.</h2>
+        <p class="descr card-anim">The areas that we're specialized in.</p>
         <div class="what-cards">
-          <div class="what-cards__card">
+          <div class="what-cards__card card-anim">
             <img src="./img/what-1.jpg" alt="" />
             <div class="what-cards__text">
               <span>Product Photography</span>
@@ -73,7 +73,7 @@
               </a>
             </div>
           </div>
-          <div class="what-cards__card">
+          <div class="what-cards__card card-anim">
             <img src="./img/what-2.jpg" alt="" />
             <div class="what-cards__text">
               <span>Architecture Photography</span>
@@ -87,7 +87,7 @@
               </a>
             </div>
           </div>
-          <div class="what-cards__card">
+          <div class="what-cards__card card-anim">
             <img src="./img/what-3.jpg" alt="" />
             <div class="what-cards__text">
               <span>Drone Photography</span>
@@ -101,7 +101,7 @@
               </a>
             </div>
           </div>
-          <div class="what-cards__card">
+          <div class="what-cards__card card-anim">
             <img src="./img/what-4.jpg" alt="" />
             <div class="what-cards__text">
               <span>Wildlife Photography</span>
@@ -118,11 +118,11 @@
         </div>
       </section>
       <section class="photo">
-        <img src="./img/photo-bg-1.jpg" alt="" />
-        <div class="photo-text">
+        <img class="photo-anim-bg" src="./img/photo-bg-1.jpg" alt="" />
+        <div class="photo-text photo-anim">
           <span>Sunset at Mount Fuji</span>
           <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
-          <div class="photo-info">
+          <div class="photo-info photos-anim-bg">
             <div class="photo-info__card">
               <img src="img/stopwatch.svg" alt="" />
               <p>1''</p>
@@ -143,7 +143,7 @@
         </div>
       </section>
       <section class="gear">
-        <div class="gear-text">
+        <div class="gear-text photo-anim">
           <span>The Gear cage</span>
           <h2>The tools that we use.</h2>
           <p>
@@ -155,8 +155,8 @@
             Check it out
           </a>
         </div>
-        <img src="./img/gear-img.jpg" alt="" />
-        <div class="photo-info">
+        <img class="photo-anim-bg" src="./img/gear-img.jpg" alt="" />
+        <div class="photo-info photos-anim-bg">
           <div class="photo-info__card">
             <img src="img/stopwatch.svg" alt="" />
             <p>0,8"</p>
@@ -176,11 +176,11 @@
         </div>
       </section>
       <section class="photo">
-        <img src="./img/photo-bg-2.jpg" alt="" />
-        <div class="photo-text">
+        <img class="photo-anim-bg" src="./img/photo-bg-2.jpg" alt="" />
+        <div class="photo-text photo-anim">
           <span>Monstera Leafs</span>
           <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
-          <div class="photo-info">
+          <div class="photo-info photo-anim-bg">
             <div class="photo-info__card">
               <img src="img/stopwatch.svg" alt="" />
               <p>1/400s</p>
@@ -201,9 +201,9 @@
         </div>
       </section>
       <section class="clients container">
-        <h2 class="title">Past clients</h2>
-        <p class="descr">Trusted by your favourite companies</p>
-        <div class="clients-cards">
+        <h2 class="title card-anim">Past clients</h2>
+        <p class="descr card-anim">Trusted by your favourite companies</p>
+        <div class="clients-cards photo-anim-bg">
           <img src="./img/client-1.svg" alt="" />
           <img src="./img/client-2.svg" alt="" />
           <img src="./img/client-3.svg" alt="" />
@@ -212,11 +212,11 @@
         </div>
       </section>
       <section class="photo">
-        <img src="./img/photo-bg-3.jpg" alt="" />
-        <div class="photo-text">
+        <img class="photo-anim-bg" src="./img/photo-bg-3.jpg" alt="" />
+        <div class="photo-text photo-anim">
           <span>Star fall in the Himalayas</span>
           <p>Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.</p>
-          <div class="photo-info">
+          <div class="photo-info photo-anim-bg">
             <div class="photo-info__card">
               <img src="img/stopwatch.svg" alt="" />
               <p>6''</p>
@@ -236,7 +236,7 @@
           </div>
         </div>
       </section>
-      <section class="help">
+      <section class="help photo-anim">
         <h2 class="title">Need help with photography or videography?</h2>
         <p class="descr">We're here for you!</p>
         <a href="##" class="btn">
@@ -246,7 +246,7 @@
       </section>
     </main>
     
-    <footer class="footer container">
+    <footer class="footer container footer-anim">
       <div class="footer-section">
         <div class="footer-section__title">
           <img src="./img/logo.svg" alt="" />
@@ -294,5 +294,7 @@
     </footer>
     
     <script src="./scripts/burger.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="./scripts/animate.js"></script>
   </body>
 </html>
